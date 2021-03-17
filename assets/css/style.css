@@ -15,10 +15,10 @@ header{
 
 .img{
   background-color: #2C3E50;;
-  height: 220px;
+  height: 200px;
   border-radius: 50%;
-  width: 220px;
-  margin: 15px auto;
+  width: 200px;
+  margin: auto;
 }
 
 .title-header{
@@ -39,7 +39,7 @@ header{
 }
 
 .sel-header [class*="col-"]{
-  background-color: #2C3E50;
+  background-color: #c5c5c5;
   height: 20px;
   border: 1px solid rgb(187, 105, 105);
 }
@@ -53,6 +53,7 @@ header{
 .cont-img{
   border-radius: 10px;
   margin-top: 30px;
+  padding: 15px;
 }
 
 .first-img{
@@ -71,37 +72,48 @@ header{
   background-color:#1137B5 ;
 }
 .sixth-img{
-  background-color:#CCB2A3 ;
+  background-color:#CCB2A3;
+  margin-bottom: 30px;
 }
 
-.clearfix{
-  display: none;
+.debug{
+  background-color:#1ABC9C ;
 }
 
-@media all and (max-width:767px){
-
-
-
+.title-2main{
+  margin-top:30px;
 }
 
-@media all and (min-width:768px) (max-width:991px){
-
-
-
+.star-2main,
+.title-2main,
+.botton{
+  background-color: #FFFFFF;
+  height: 30px;
+  margin-bottom:20px;
 }
 
-@media all and (min-width:992px) (max-width:1199px){
-
-
-
+.paragraf{
+  height: 200px;
+  background-color: #FFFFFF;
+  margin-bottom: 30px;
 }
 
+.title-contact{
+  background-color: #2C3E50;
+  height: 30px;
+  margin:20px auto;
+}
 
-@media all and (min-width:1200px){
+.star-contact,
+.camp{
+  background-color: #2C3E50;
+  height: 30px;
+  margin-bottom: 20px;
+}
 
-  .clearfix{
-    display: block;
-    width: 0;
-  }
-
+.botton-blue{
+  background-color: #2C3E50;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-top: 100px;
 }
