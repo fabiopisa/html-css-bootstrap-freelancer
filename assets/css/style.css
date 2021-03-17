@@ -10,31 +10,31 @@ header{
 }
 
 .guy{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
-.guy .img{
+.img{
   background-color: #2C3E50;;
   height: 220px;
   border-radius: 50%;
   width: 220px;
-  margin: auto;
+  margin: 15px auto;
 }
 
 .title-header{
-  background-color: #FFFFFF;
+  background-color: #2C3E50;
   height: 50px;
   margin-top: 20px;
 }
 
-.star-header{
-  background-color: #FFFFFF;
+.star{
+  background-color: #2C3E50;
   height: 30px;
   margin-top: 30px;
 }
 
 .sel-header{
-  background-color: #FFFFFF;
+  
   margin-top: 30px;
 }
 
@@ -42,4 +42,66 @@ header{
   background-color: #2C3E50;
   height: 20px;
   border: 1px solid rgb(187, 105, 105);
+}
+
+.title-main{
+  background-color: #2C3E50;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.cont-img{
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.first-img{
+  background-color:#BA4D63 ;
+}
+.second-img{
+  background-color:#1FA4B6 ;
+}
+.third-img{
+  background-color:#140F0F ;
+}
+.fourth-img{
+  background-color:#1C83C1;
+}
+.fifth-img{
+  background-color:#1137B5 ;
+}
+.sixth-img{
+  background-color:#CCB2A3 ;
+}
+
+.clearfix{
+  display: none;
+}
+
+@media all and (max-width:767px){
+
+
+
+}
+
+@media all and (min-width:768px) (max-width:991px){
+
+
+
+}
+
+@media all and (min-width:992px) (max-width:1199px){
+
+
+
+}
+
+
+@media all and (min-width:1200px){
+
+  .clearfix{
+    display: block;
+    width: 0;
+  }
+
 }
