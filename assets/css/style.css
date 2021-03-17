@@ -4,9 +4,32 @@
   box-sizing: border-box;
 }
 
+.fix-nav{
+  height: 100px;
+  background-color:#2C3E50 ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.logo{
+  height: 40px;
+  background-color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.nav{
+  height: 30px;
+  background-color: #FFFFFF;
+  margin-top:35px ;
+}
+
 header{
   background-color: #1ABC9C ;
   height: 500px;
+  margin-top: 100px;
 }
 
 .guy{
@@ -116,4 +139,26 @@ header{
   height: 30px;
   margin-bottom: 30px;
   margin-top: 100px;
+}
+
+.top-footer{
+ background-color:#3A546D;
+ height: 400px;
+}
+
+.bottom-footer{
+ background-color:#2C3E50 ;
+ height: 60px;
+}
+
+.info-footer{
+  background-color: #FFFFFF;
+  height:100px;
+  margin-top: 20px;
+}
+
+.copy-footer{
+  height: 30px;
+  background-color: #FFFFFF;
+  margin-top: 15px;
 }
