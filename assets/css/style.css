@@ -24,11 +24,11 @@
   margin-left: 10%;
 }
 
-.nav ul{
+ul{
   list-style: none;
 }
 
-.nav ul li{
+ul li{
   display: inline;
 }
 
@@ -91,6 +91,10 @@
 
 .f-size-400{
   font-size: 400%;
+}
+
+ul li a:hover{
+  color: #808080;
 }
 /* /COMANDI GENERALI */
 
@@ -196,7 +200,7 @@
 /*/ CONTACT  */
 /*/ MAIN */
 
-
+/* FOOTER */
 .top-footer{
  background-color:#3A546D;
 }
@@ -205,14 +209,46 @@
  background-color:#2C3E50 ;
 }
 
-.info-footer{
-  background-color: #FFFFFF;
-  height:100px;
-  margin-top: 20px;
+footer p{
+  color: #FFFFFF;
+  font-size: 120%;
 }
 
-.copy-footer{
-  height: 30px;
-  background-color: #FFFFFF;
-  margin-top: 15px;
+footer p span{
+  color:#20AA94 ;
 }
+footer ul li i{
+  color: #FFFFFF;
+}
+
+footer ul li a{
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.ma-foot{
+  margin-right: 10px;
+}
+
+footer ul .book{
+  padding: 7px 11px;
+}
+
+footer ul .gle{
+  padding: 7px 7px;
+}
+
+footer ul .ter{
+  padding: 7px 9px;
+}
+
+footer ul .link{
+  padding: 7px 9px;
+}
+
+footer .bottom-footer span{
+  color: #FFFFFF;
+  font-size: 75%;
+}
+
+/* / FOOTER */
