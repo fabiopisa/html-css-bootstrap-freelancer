@@ -167,11 +167,25 @@
  color: #2C3E50;
 }
 
-.fp-form-control{
-  border-bottom:1px solid #808080 ;
+.fp-form-control.form-group{
+  border-bottom:1px solid #EDEDED;
 }
 
-.fp-btn-green{
+.fp-form-control-no.form-control{
+  border:none ;
+  box-shadow: none;
+}
+
+.fp-form.form-control{
+  border:none ;
+  box-shadow: none;
+}
+
+.fp-form-bor.fp-form.form-control{
+  border-bottom: 1px solid #EDEDED;
+}
+
+.fp-btn-green.btn.btn-default{
   background-color: #1ABC9C;
   border: none;
   color: #FFFFFF;
