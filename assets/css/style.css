@@ -16,18 +16,12 @@
 }
 
 .fix-nav h1{
-  color: #FFFFFF;
-  text-transform: uppercase ;
-  font-weight:bolder ;
   font-size: 150%;
   margin: auto;
 }
 
 .nav ul li a{
-  color: #FFFFFF;
-  text-transform: uppercase;
   margin-left: 10%;
-  font-weight:bolder 
 }
 
 .nav ul{
@@ -39,7 +33,11 @@
 }
 
 .fix-nav .bottone span{
-  color: #FFFFFF;
+  color: #8C949C;
+  border: 1px solid #8C949C;
+  padding: 5px;
+  border-radius: 5px;
+
 }
 
 /*/ BARRA FIXATA */
@@ -63,57 +61,52 @@
   width: 60%;
   margin: 0 auto;
 }
-/* /COMANDI GENERALI */
 
-header{
-  margin-top: 40px;
+.text-up-whi{
+  color: #FFFFFF;
+  text-transform: uppercase ;
 }
 
+.text-bold{
+  font-weight:bolder ;
+}
+/* /COMANDI GENERALI */
+
+/* HEADER */
 .fp-jumbotron{
   width: 80%;
   max-width: 800px;
   min-width: 300px;
   margin: 0 auto;
-  background-color: brown;
-  height: 200px;
 }
 
-.img{
-  background-color: #2C3E50;;
-  height: 200px;
-  border-radius: 50%;
-  width: 200px;
-  margin: auto;
+.fp-jumbotron img{
+  width: 30%;
 }
 
-.title-header{
-  background-color: #2C3E50;
-  height: 50px;
-  margin-top: 20px;
+.fp-jumbotron h2{
+  font-size: 400%;
 }
 
-.star{
-  background-color: #2C3E50;
-  height: 30px;
-  margin-top: 30px;
+.line{
+  display: inline-block;
+  border: 2px solid #FFFFFF;
+  width: 20%;
+  margin-bottom: 11px;
+  border-radius: 5px;
 }
 
-.sel-header{
-  
-  margin-top: 30px;
+.fp-jumbotron .star span{
+  color: #FFFFFF;
+  font-size: 180%;
+  margin: auto 20px;
 }
 
-.sel-header [class*="col-"]{
-  background-color: #c5c5c5;
-  height: 20px;
-  border: 1px solid rgb(187, 105, 105);
+.text-header{
+  font-size: 150%;
 }
+/*/ HEADER */
 
-.title-main{
-  background-color: #2C3E50;
-  height: 30px;
-  margin-top: 30px;
-}
 
 .cont-img{
   border-radius: 10px;
