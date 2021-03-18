@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 
+/* BARRA FIXATA */
 .fix-nav{
-  height: 100px;
+  
   background-color:#2C3E50 ;
   position: fixed;
   top: 0;
@@ -14,26 +15,67 @@
   z-index: 50;
 }
 
-.logo{
-  height: 40px;
-  background-color: #FFFFFF;
-  margin-top: 30px;
+.fix-nav h1{
+  color: #FFFFFF;
+  text-transform: uppercase ;
+  font-weight:bolder ;
+  font-size: 150%;
+  margin: auto;
 }
 
-.nav{
-  height: 30px;
-  background-color: #FFFFFF;
-  margin-top:35px ;
+.nav ul li a{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-left: 10%;
+  font-weight:bolder 
 }
+
+.nav ul{
+  list-style: none;
+}
+
+.nav ul li{
+  display: inline;
+}
+
+.fix-nav .bottone span{
+  color: #FFFFFF;
+}
+
+/*/ BARRA FIXATA */
+
+/* COMANDI GENERALI */
+
+
+.fp-padding-80{
+  padding: 80px 0;
+}
+
+.fp-padding-30{
+  padding: 30px 0;
+}
+
+.fp-padding-15{
+  padding: 15px 0;
+}
+
+.fp-wrapper-60{
+  width: 60%;
+  margin: 0 auto;
+}
+/* /COMANDI GENERALI */
 
 header{
-  background-color: #1ABC9C ;
-  height: 500px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
-.guy{
-  margin-top: 30px;
+.fp-jumbotron{
+  width: 80%;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: brown;
+  height: 200px;
 }
 
 .img{
@@ -143,12 +185,10 @@ header{
 
 .top-footer{
  background-color:#3A546D;
- height: 400px;
 }
 
 .bottom-footer{
  background-color:#2C3E50 ;
- height: 60px;
 }
 
 .info-footer{
