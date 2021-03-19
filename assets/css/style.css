@@ -73,7 +73,7 @@ ul li{
 }
 
 .text-bold{
-  font-weight:bolder ;
+  font-weight:bold ;
 }
 
 .star span{
@@ -219,31 +219,15 @@ footer p span{
 }
 footer ul li i{
   color: #FFFFFF;
-}
-
-footer ul li a{
+  width: 55px;
+  padding: 15px;
+  font-size: 20px;
   border: 1px solid #FFFFFF;
   border-radius: 50%;
 }
 
 .ma-foot{
   margin-right: 10px;
-}
-
-footer ul .book{
-  padding: 7px 11px;
-}
-
-footer ul .gle{
-  padding: 7px 7px;
-}
-
-footer ul .ter{
-  padding: 7px 9px;
-}
-
-footer ul .link{
-  padding: 7px 9px;
 }
 
 footer .bottom-footer span{
